@@ -1,0 +1,39 @@
+.carousel-item img {
+    height: 600px;
+}
+
+.carousel-item::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+
+    background: linear-gradient(
+        to bottom,
+        rgba(58, 53, 50, 0.3),
+        rgba(66, 62, 59, 0.883)
+    );
+    border-radius: 15px;
+}
+
+.row {
+    padding: 5% 10%;
+}
+.header {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    margin: 1%;
+    font-size: 30px;
+}

@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.happy-faces img {
+    height: 600px;
+    width: 100%;
+}
+.about-helping {
+    padding: 3% 0%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    margin: 1%;
+    font-size: 30px;
+}
